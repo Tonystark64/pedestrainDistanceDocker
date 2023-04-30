@@ -3,6 +3,26 @@ We used [opendatacam](https://github.com/opendatacam/opendatacam) to detect pede
 
 ### As shown in below screenshot, the distances between people are tagged with numbers.
 <!-- [IMAGE] -->
-<div align=center>
+<div align=left>
 <img src="./images/videoCapture.JPG" width="400"/>
+</div>
+
+### When the Docker image is built from [Dockerfile](./Dockerfile), the size is shown below
+<!-- [IMAGE] -->
+<div align=left>
+<img src="./images/dockerImage.JPG" width="600"/>
+</div>
+
+### The container is run successfully with container port 5000(tcp) and host post 5001
+<!-- [IMAGE] -->
+<div align=left>
+<img src="./images/container.JPG" width="600"/>
+</div>
+
+### The public accessible image [link](https://hub.docker.com/repository/docker/ryancheung11/flaskopencv)   
+Before pushing to the Docker Hub, the orginal size of this image is over 800MB.  
+You can see after uploading to Docker Repo, the compressed size is only over 200MB.
+<!-- [IMAGE] -->
+<div align=left>
+<img src="./images/dockerPush.JPG" width="600"/>
 </div>
