@@ -16,6 +16,10 @@ We used [opendatacam](https://github.com/opendatacam/opendatacam) to detect pede
 ### The container is run successfully with container port 5000(tcp) and host post 5001
 <!-- [IMAGE] -->
 <div align=left>
+<img src="./images/runDocker.png" width="300"/>
+</div>
+<!-- [IMAGE] -->
+<div align=left>
 <img src="./images/container.JPG" width="600"/>
 </div>
 
